@@ -1,0 +1,142 @@
+.tab {
+  margin-top: 50px;
+  border-bottom: 3px solid #13161f;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  color: #13161f !important;
+}
+
+.tab :hover {
+  background-color: #ebeaea;
+  color: #ff9900;
+}
+
+.titlecol h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #0040ff;
+  font-size: 180%;
+  text-align: left;
+  line-height: 50px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.titlecol2 h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #0040ff;
+  font-size: 180%;
+  text-align: left;
+  line-height: 50px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.titlecol {
+  margin: 30px 0px 30px;
+}
+
+.titlecol2 {
+  text-align: right;
+}
+
+.titlecol p {
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+}
+.titlecol2 p {
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+}
+
+.btnleft {
+  margin: 20px 0px 20px;
+  background-color: #0040ff;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Rowimg {
+  margin-top: 80px;
+  width: 65%;
+}
+.Rowimg01 {
+  margin-top: 100px;
+  width: 70%;
+}
+
+@media only screen and (max-width: 425px) {
+  .tab {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  .nav-link {
+    color: #13161f !important;
+  }
+
+  .tab :hover {
+    background-color: #ebeaea;
+    color: #ff9900;
+  }
+
+  .titlecol h1 {
+    font-size: 80%;
+    margin: 0px;
+    line-height: revert;
+  }
+
+  .titlecol2 h1 {
+    font-size: 80%;
+    margin: 0px;
+    line-height: revert;
+  }
+
+  .infoimg {
+    width: 200px;
+    margin-top: 29px;
+  }
+
+  .titlecol {
+    margin: 0px;
+  }
+
+  .titlecol2 {
+    text-align: right;
+  }
+
+  .titlecol p {
+    font-size: 8px;
+    margin: 10px 0px;
+  }
+  .titlecol2 p {
+    font-size: 8px;
+    margin: 10px 0px;
+  }
+
+  .btnleft {
+    margin: 0px;
+    padding: 5px;
+    font-size: 8px;
+  }
+
+  .Rowimg {
+    margin-top: 80px;
+  width: 90%;
+  }
+  .Rowimg01 {
+        margin-top: 85px;
+    width: 100%;
+  }
+
+}
